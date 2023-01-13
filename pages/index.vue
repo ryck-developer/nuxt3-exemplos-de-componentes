@@ -1,7 +1,10 @@
 <template>
   <div>
     <h1>hello</h1>
-    <Alert v-bind:message="'Hello World'" v-bind:type="'teste'"></Alert>
+    <Alert
+      :message="messages.success.text"
+      v-bind:type="messages.success.class"
+    ></Alert>
   </div>
 </template>
 
@@ -10,6 +13,13 @@ import Alert from '~/components/general/Alert.vue';
 export default {
   components: {
     Alert,
+  },
+  data() {
+    return {
+      messages: {
+        success: { text: 'Ola Mundo', class: 'success' },
+      },
+    };
   },
 };
 </script>

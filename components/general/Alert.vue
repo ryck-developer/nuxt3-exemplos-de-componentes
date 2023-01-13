@@ -10,3 +10,17 @@ export default {
   props: ['message', 'type'],
 };
 </script>
+
+<style>
+.alert {
+  width: 98%;
+  border: 0px solid;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+.success {
+  background-color: purple;
+}
+</style>
