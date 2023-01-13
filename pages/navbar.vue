@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <a :href="url"><img :src="logo" alt=""></img></a>
-  </div>
+  <div></div>
 </template>
 
 <script>
