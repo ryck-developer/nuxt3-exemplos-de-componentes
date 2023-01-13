@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>hello</h1>
-    <Alert message="Hello World" type="success"></Alert>
+    <Alert v-bind:message="'Hello World'" v-bind:type="'teste'"></Alert>
   </div>
 </template>
 
