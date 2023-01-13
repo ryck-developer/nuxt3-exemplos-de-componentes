@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'alert',
+  name: 'Alert',
   props: ['message', 'type'],
 };
 </script>
