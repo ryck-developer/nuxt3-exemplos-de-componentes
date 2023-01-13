@@ -2,8 +2,8 @@
   <div>
     <h1>hello</h1>
     <Alert
-      :message="messages.success.text"
-      v-bind:type="messages.success.class"
+      :message="messages.success_signup.text"
+      v-bind:type="messages.success_signup.class"
     ></Alert>
   </div>
 </template>
@@ -17,7 +17,10 @@ export default {
   data() {
     return {
       messages: {
-        success: { text: 'Ola Mundo', class: 'success' },
+        success_signup: {
+          text: 'Bem-Vindo ao site, agora que você é um colaborador, que tal dar uma olhada na sessão de aprendizado?',
+          class: 'information',
+        },
       },
     };
   },

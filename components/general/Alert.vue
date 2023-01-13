@@ -20,7 +20,7 @@ export default {
   padding: 10px;
   color: white;
 }
-.success {
+.information {
   background-color: purple;
 }
 </style>
