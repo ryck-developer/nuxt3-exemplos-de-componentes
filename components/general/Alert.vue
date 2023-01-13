@@ -19,6 +19,7 @@ export default {
   text-align: center;
   padding: 10px;
   color: white;
+  margin: 5px;
 }
 .information {
   background-color: purple;

@@ -5,6 +5,10 @@
       :message="messages.success_signup.text"
       v-bind:type="messages.success_signup.class"
     ></Alert>
+    <Alert
+      :message="'Parabéns agora você está registrado da guilda'"
+      v-bind:type="messages.success_signup.class"
+    ></Alert>
   </div>
 </template>
 
