@@ -65,8 +65,8 @@ header {
 }
 
 header > a > img {
-  margin-left: 100px;
-  margin-top: 48px;
+  margin-left: 110px;
+  margin-top: 28px;
 }
 
 /* Definir o elemento <ul>(menu) como um elemento flexível */
