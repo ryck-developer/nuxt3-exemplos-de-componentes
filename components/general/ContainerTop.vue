@@ -15,5 +15,6 @@ export default {
 .container {
   display: grid;
   grid-template-columns: 60% 40%;
+  height: 77vh;
 }
 </style>
