@@ -1,13 +1,17 @@
 <template>
   <div>
     <header>
-      <a href="#">LOGO</a>
-
+      <a href="#"
+        ><img
+          src="https://raw.githubusercontent.com/ryck-developer/luiz-henrique-chaves/main/logo.png"
+          alt=""
+      /></a>
       <nav>
         <ul>
-          <li><a href="#">Página inicial</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Compromissos</a></li>
+          <li><a href="#">Notícias</a></li>
+          <li><a href="#">Agenda</a></li>
         </ul>
       </nav>
     </header>
@@ -24,7 +28,8 @@ export default {
 /* Remover margem e padding das listas e definir que não terá marcadores */
 ul,
 li,
-a {
+a,
+body {
   margin: 0px;
   padding: 0px;
   list-style: none;
@@ -35,14 +40,15 @@ ul,
 li,
 p,
 a {
-  font-size: 13px;
+  font-size: 16px;
   font-family: Arial;
 }
 
 /* Remover sublinhado nos links */
 a {
   text-decoration: none;
-  padding: 11px;
+  padding: 13px;
+  color: black;
 }
 
 /* Definir margem da logo para a mesma margem do menu*/
