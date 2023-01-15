@@ -41,14 +41,15 @@ li,
 p,
 a {
   font-size: 16px;
-  font-family: Arial;
+  font-family: arial, sans-serif;
+  font-weight: 600;
 }
 
 /* Remover sublinhado nos links */
 a {
   text-decoration: none;
-  padding: 13px;
-  color: black;
+  padding: 9px;
+  color: #4d4d4d;
 }
 
 /* Definir margem da logo para a mesma margem do menu*/
@@ -61,6 +62,11 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+header > a > img {
+  margin-left: 100px;
+  margin-top: 48px;
 }
 
 /* Definir o elemento <ul>(menu) como um elemento flexível */
