@@ -48,7 +48,7 @@ a {
 /* Remover sublinhado nos links */
 a {
   text-decoration: none;
-  padding: 9px;
+  padding: 7px;
   color: #4d4d4d;
 }
 
@@ -72,6 +72,7 @@ header > a > img {
 /* Definir o elemento <ul>(menu) como um elemento flexível */
 nav > ul {
   display: flex;
+  padding: 55px;
 }
 
 /* Adicionar padding de 10px para cada elemento li dentro do <ul>(menu) */
