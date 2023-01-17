@@ -1,5 +1,6 @@
 <template>
   <div>
+    <title>Desafio Front-end 2 - Pessoas de Tech</title>
     <Navbar />
     <ContainerTop />
   </div>
@@ -10,11 +11,6 @@ import Navbar from '~/components/general/Navbar.vue';
 import ContainerTop from '~/components/general/ContainerTop.vue';
 
 export default {
-  head() {
-    return {
-      title: 'ola',
-    };
-  },
   components: {
     Navbar,
     ContainerTop,
