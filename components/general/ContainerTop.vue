@@ -2,9 +2,11 @@
   <div class="container">
     <div class="item-1">
       <div class="title">
-        <p>Somos um servidor</p>
-        <p class="enfase">focado em transição de</p>
-        <p>carreira</p>
+        <div class="title-box">
+          <p>Somos um servidor</p>
+          <p class="enfase">focado em transição de</p>
+          <p>carreira</p>
+        </div>
       </div>
       <div class="description"></div>
       <div class="button-participar"></div>
@@ -52,14 +54,19 @@ export default {
   width: 500px;
 }
 
-.title > p {
-  font-size: 50px;
-  line-height: 0.3 !important;
+.title > .title-box > p {
+  font-size: 52px;
+  line-height: 0.3;
   font-weight: 700;
   color: #2f2f2f;
 }
 
-.title > .enfase {
+.title-box {
+  margin-top: 80px;
+  margin-left: 144px !important;
+}
+
+.title > .title-box > .enfase {
   color: #717cff;
 }
 </style>
