@@ -8,8 +8,15 @@
           <p>carreira</p>
         </div>
       </div>
-      <div class="description"></div>
-      <div class="button-participar"></div>
+      <div class="description">
+        <p>
+          Temos desafios, lives, eventos, tiramos dúvidas e achamos uma
+          colocação para você. Quer fazer parte? Clique no botão<p style='margin-top: -18px !important;'> abaixo:</p>
+        </p>
+      </div>
+      <div class="button-participar">
+        <button>Participar</button>
+      </div>
     </div>
     <div class="item-2">
       <div class="img">
@@ -68,5 +75,21 @@ export default {
 
 .title > .title-box > .enfase {
   color: #717cff;
+}
+
+.description > p {
+  color: #7d7d7d;
+  margin-left: 144px !important;
+  font-size: 19px;
+  line-height: 1.7;
+}
+.button-participar > button {
+  background: #4654fd;
+  border: 0px solid;
+  border-radius: 8px;
+  padding: 10px 60px;
+  font-size: 24px;
+  margin-left: 144px !important;
+  color: white;
 }
 </style>
