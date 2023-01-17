@@ -1,7 +1,9 @@
 <template>
   <div class="container">
     <div class="item-1" style="background-color: green">Conteúdo do item 1</div>
-    <div class="item-2" style="background-color: red">Conteúdo do item 2</div>
+    <div class="item-2" style="background-color: red">
+      <div class="img"></div>
+    </div>
   </div>
 </template>
 
@@ -16,5 +18,17 @@ export default {
   display: grid;
   grid-template-columns: 60% 40%;
   height: calc(100vh - 148px);
+}
+.img {
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  align-self: flex-end;
+}
+
+.item-2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 </style>
