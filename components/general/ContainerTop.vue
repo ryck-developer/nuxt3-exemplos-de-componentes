@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="item-1" style="background-color: green">Conteúdo do item 1</div>
-    <div class="item-2" style="background-color: red; color: white">
+    <div class="item-2">
       <div class="img">
         <img
           src="https://raw.githubusercontent.com/ryck-developer/luiz-henrique-chaves/main/hero.png"
