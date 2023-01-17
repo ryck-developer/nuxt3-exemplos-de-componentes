@@ -1,7 +1,8 @@
 <template>
   <div class="container">
     <div class="item-1" style="background-color: green">Conteúdo do item 1</div>
-    <div class="item-2" style="background-color: red">
+    <div class="item-2" style="background-color: red; color: white">
+      Conteúdo do item 1
       <div class="img"></div>
     </div>
   </div>
@@ -29,6 +30,6 @@ export default {
 .item-2 {
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: flex-end;
 }
 </style>
