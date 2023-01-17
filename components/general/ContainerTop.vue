@@ -1,6 +1,14 @@
 <template>
   <div class="container">
-    <div class="item-1" style="background-color: green">Conteúdo do item 1</div>
+    <div class="item-1">
+      <div class="title">
+        <p>Somos um servidor</p>
+        <p class="enfase">focado em transição de</p>
+        <p>carreira</p>
+      </div>
+      <div class="description"></div>
+      <div class="button-participar"></div>
+    </div>
     <div class="item-2">
       <div class="img">
         <img
@@ -42,5 +50,16 @@ export default {
 
 .img > img {
   width: 500px;
+}
+
+.title > p {
+  font-size: 50px;
+  line-height: 0.3 !important;
+  font-weight: 700;
+  color: #2f2f2f;
+}
+
+.title > .enfase {
+  color: #717cff;
 }
 </style>
