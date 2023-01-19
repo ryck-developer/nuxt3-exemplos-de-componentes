@@ -79,4 +79,10 @@ nav > ul {
 nav > ul > li {
   padding: 10px;
 }
+
+@media (max-width: 412) {
+  nav > ul {
+    padding: -10px !important;
+  }
+}
 </style>
