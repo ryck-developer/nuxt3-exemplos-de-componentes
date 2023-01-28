@@ -3,7 +3,7 @@
     <div class="item-1">
       <div class="title">
         <div class="title-box">
-          <p>Somos um servidor</p>
+          <p>Rick</p>
           <p class="enfase">focado em transição de</p>
           <p>carreira</p>
         </div>
