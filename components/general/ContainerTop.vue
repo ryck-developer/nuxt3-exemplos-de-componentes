@@ -94,12 +94,12 @@ export default {
 }
 
 <!-- CSS media query dentro de um stylesheet -->
-@media (min-width: 498px)
+@media (max-width: 498px)
 {
   .title>.title-box>p {
-    font-size: 42px;
+    font-size: 42px !important;
     font-weight: 700;
-    line-height: 1;
+    line-height: 1 !important;
   }
 }
 </style>
