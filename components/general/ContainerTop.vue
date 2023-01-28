@@ -98,7 +98,6 @@ export default {
 {
   .title>.title-box>p {
     font-size: 42px !important;
-    font-weight: 700;
     line-height: 1 !important;
   }
 }
