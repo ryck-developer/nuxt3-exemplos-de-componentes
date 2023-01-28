@@ -93,10 +93,9 @@ export default {
   color: white;
 }
 
-<!-- CSS media query dentro de um stylesheet -->
 @media (min-width: 522px)
 {
-  .title>.title-box>p {
+  .title > .title-box > p {
     font-size: 42px !important;
     line-height: 1 !important;
   }
