@@ -1,7 +1,7 @@
 <template>
   <div>
     <title>Desafio Front-end 2 - Pessoas de Tech</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content= "width=device-width, user-scalable=no">
 
     <Navbar />
     <ContainerTop />
