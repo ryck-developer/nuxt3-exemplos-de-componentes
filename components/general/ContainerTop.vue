@@ -94,7 +94,7 @@ export default {
 }
 
 <!-- CSS media query dentro de um stylesheet -->
-@media (max-width: 498px)
+@media (min-width: 498px)
 {
   .title>.title-box>p {
     font-size: 42px;
