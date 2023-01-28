@@ -92,4 +92,14 @@ export default {
   margin-left: 144px !important;
   color: white;
 }
+
+<!-- CSS media query dentro de um stylesheet -->
+@media (max-width: 498px)
+{
+  .title>.title-box>p {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+  }
+}
 </style>
