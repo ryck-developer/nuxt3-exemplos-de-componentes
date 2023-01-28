@@ -2,7 +2,6 @@
   <div>
     <title>Desafio Front-end 2 - Pessoas de Tech</title>
     <Navbar />
-    testeeeeeeeeeeeeeeeeeeeeee
     <ContainerTop />
   </div>
 </template>
