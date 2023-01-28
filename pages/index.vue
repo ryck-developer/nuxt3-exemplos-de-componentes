@@ -1,6 +1,8 @@
 <template>
   <div>
     <title>Desafio Front-end 2 - Pessoas de Tech</title>
+    <meta name="viewport" content="width=1280">
+
     <Navbar />
     <ContainerTop />
   </div>
