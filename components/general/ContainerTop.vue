@@ -93,8 +93,7 @@ export default {
   color: white;
 }
 
-@media (min-width: 522px)
-{
+@media (max-width: 522px){
   .title > .title-box > p {
     font-size: 42px !important;
     line-height: 1 !important;
